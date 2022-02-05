@@ -23,6 +23,11 @@ public class Pet {
 	public Integer getWeight() {
 		return weight;
 	}
+
+	@Override
+	public String toString() {
+		return "Pet [breed=" + breed + ", name=" + name + ", weight=" + weight + "]";
+	}
 	
 	
 	
