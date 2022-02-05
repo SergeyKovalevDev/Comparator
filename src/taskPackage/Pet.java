@@ -20,7 +20,7 @@ public class Pet {
 		return name;
 	}
 
-	public int getWeight() {
+	public Integer getWeight() {
 		return weight;
 	}
 	
